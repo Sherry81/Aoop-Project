@@ -1,0 +1,41 @@
+<!--
+  Generated template for the Psycho3Page page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>PROFILE</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding class="bg">
+
+  <br />
+  <h1 align="center">Dr. Jaleel Asghar</h1>
+  <br />
+  <font color="red"><p align="center"> Degree: MBBS, MD </p>
+<p align="center">Psychiatrist</p>
+<p align="center">Experience: 7 years</p></font>
+<br />
+<h3>SITTINGS:
+</h3><br />
+<font color="red"><p>AgaKhan University Hospital, Karachi</p>
+<p>SouthCity Hospital, Karachi</p></font>
+<br />
+<h3>Make your appointment</h3>
+<br />
+<ion-item>
+    <ion-label>Select Your Date</ion-label>
+    <ion-datetime displayFormat="MMM DD, HH:mm" [(ngModel)]="myDate"></ion-datetime>
+  </ion-item>
+  <br />
+  <div class="my-div3">
+      <button ion-button color="light" (click)="signin()" round>MAKE APPOINTMENT</button></div>
+
+
+</ion-content>

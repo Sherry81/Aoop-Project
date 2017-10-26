@@ -1,0 +1,44 @@
+<!--
+  Generated template for the WelcomePage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar>
+    <ion-title></ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding class="bg-image2">
+
+    <ion-slides pager>
+        
+          <ion-slide>
+            
+            <h1 style="color:aliceblue;">WELCOME TO AKUH ONLINE APPOINTMENT APPLICATION</h1>
+          
+          <h3 style="color:aliceblue;">Get started by swiping left...</h3>
+          </ion-slide>
+        
+          <ion-slide>
+            <h4 style="color:aliceblue;">Already have an account?</h4>
+              
+            <button ion-button color="primary" round (click)="signins()"><ion-icon name="log-in"></ion-icon> LOGIN</button>
+              <h5 style="color:aliceblue;">OR</h5>
+              <h4 style="color:aliceblue;">Create an account</h4>
+              <button ion-button color="primary" round (click)="signups()"><ion-icon name="person-add"></ion-icon>
+                SIGN UP</button>
+
+
+            
+          </ion-slide>
+        
+        
+        </ion-slides>
+    
+
+</ion-content>
